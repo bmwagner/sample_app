@@ -14,4 +14,5 @@ group :test do
 	gem 'rspec-rails', '2.5.0'
   	gem 'spork', '0.9.0.rc4'
 	gem 'rspec', '2.5.0'
+	gem 'factory_girl_rails', '1.0'
 end

@@ -2,6 +2,9 @@ require 'rubygems'
 require 'spork'
 # 3/29/11 I needed require 'webrat' to get have_selector working in the specs
 require 'webrat'
+# 6/19/11 I needed this to get factories to pull in to user_controllers_spec.rb
+# 6/19/11 Actually no, I didn't need this. Just had to restart spork/ autotest.
+# require 'factory_girl_rails'
 
 Spork.prefork do
   # Loading more in this block will cause your tests to run faster. However, 
